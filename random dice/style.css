@@ -1,0 +1,66 @@
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+}
+body {
+  background: aqua;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.4), rgba(0,0,0,0.4));
+}
+body:hover {
+  animation-name: background;
+  animation-duration: 4s; 
+}
+h1 {
+  text-align: center;
+}
+@keyframes background {
+  0% {
+    background-color: aqua;
+  }
+ 25% {
+    background-color: #9A1663;
+  }
+  50% {
+    background-color: #E0144C;
+  }
+  75% {
+    background-color: #FF5858;
+  }
+  100% {
+    background-color: #FF97C1;
+  }
+}
+  div{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 11em;
+    text-align: center;
+    margin: 0%;
+    border:0%;
+}
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+  }
+  
+  button {
+    
+        position: absolute;
+        left: 50%;
+        top: 70%;
+         background:#36109c;
+         font-style: italic;
+       
+    height: 150px;
+    width:200px;
+    font-size: 30px;
+    padding:  20px;
+    cursor: pointer;
+    }
+
+  
